@@ -23,7 +23,7 @@ const defaultConfig: IConfig = {
   alive_timeout: 60000,
   key: "peerjs",
   path: "/",
-  concurrent_limit: 5000,
+  concurrent_limit: 2,
   allow_discovery: false,
   proxied: false,
   cleanup_out_msgs: 1000,
